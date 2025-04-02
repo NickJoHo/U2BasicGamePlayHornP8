@@ -487,13 +487,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1354911834}
     m_Modifications:
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9487088
+      objectReference: {fileID: 0}
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3371066
+      objectReference: {fileID: 0}
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Size.z
+      value: 0.9559426
+      objectReference: {fileID: 0}
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Center.x
+      value: -0.009282529
+      objectReference: {fileID: 0}
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Center.y
+      value: 0.02381438
+      objectReference: {fileID: 0}
+    - target: {fileID: 688672035703083052, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
+      propertyPath: m_Center.z
+      value: 0.026296765
+      objectReference: {fileID: 0}
     - target: {fileID: 723167229046519768, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 723167229046519768, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.13
+      value: 1.986
       objectReference: {fileID: 0}
     - target: {fileID: 723167229046519768, guid: cbbbe0d4ae8c86e49b52331de8543b4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -941,6 +965,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8972757009436728938, guid: 4151991ee8a4fc14dbf2f0b1d688feb3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.13752246
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972757009436728938, guid: 4151991ee8a4fc14dbf2f0b1d688feb3, type: 3}
+      propertyPath: m_Size.z
+      value: 0.31286517
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972757009436728938, guid: 4151991ee8a4fc14dbf2f0b1d688feb3, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0002625108
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972757009436728938, guid: 4151991ee8a4fc14dbf2f0b1d688feb3, type: 3}
+      propertyPath: m_Center.z
+      value: 0.013260698
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -998,6 +1038,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22808301
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2163843
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Size.z
+      value: 0.28864875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0012703167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Center.y
+      value: 0.12759519
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975241850398908305, guid: 7d96d20eae27ae4499463ac1727479d2, type: 3}
+      propertyPath: m_Center.z
+      value: 0.021740181
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1011,6 +1075,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3929028687299272635, guid: b1af59d60303f844490bb20dd8fb4a74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.17854007
+      objectReference: {fileID: 0}
+    - target: {fileID: -3929028687299272635, guid: b1af59d60303f844490bb20dd8fb4a74, type: 3}
+      propertyPath: m_Center.x
+      value: 0.009420239
+      objectReference: {fileID: 0}
+    - target: {fileID: -3929028687299272635, guid: b1af59d60303f844490bb20dd8fb4a74, type: 3}
+      propertyPath: m_Center.z
+      value: 0.023833353
+      objectReference: {fileID: 0}
     - target: {fileID: 1649394104141069752, guid: b1af59d60303f844490bb20dd8fb4a74, type: 3}
       propertyPath: m_Name
       value: Dog_Doberman_01
