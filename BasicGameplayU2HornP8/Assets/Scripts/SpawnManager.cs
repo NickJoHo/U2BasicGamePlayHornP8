@@ -10,7 +10,7 @@ public class SpawnManager : MonoBehaviour
     private float startDelay = 2f;
     private float spawnInterval = 1.5f;
 
-    public float sideSpawnMinZ;
+    public float sideSpawnMinZ = 15;
     public float sideSpawnMaxZ;
     public float sideSpawnX;
 
@@ -18,18 +18,23 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
+        InvokeRepeating("SpawnLeftAnimal", 1, 1);
+        InvokeRepeating("SpawnRightAnimal", 3, 3);
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-    }void SpawnRandomAnimal()
-        {
-            int animalIndex = Random.Range(0, animalPrefabs.Length);
-            Vector3 spawnpos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+    }
+    void SpawnRandomAnimal()
+    {
+        int animalIndex = Random.Range(0, animalPrefabs.Length);
+        Vector3 spawnpos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
 
-            Instantiate(animalPrefabs[animalIndex], spawnpos, animalPrefabs[animalIndex].transform.rotation);
+        Instantiate(animalPrefabs[animalIndex], spawnpos, animalPrefabs[animalIndex].transform.rotation);
+    }
 
         void SpawnLeftAnimal()
         {
@@ -41,12 +46,14 @@ public class SpawnManager : MonoBehaviour
             }
             void SpawnRightAnimal()
             {
-                int animalIndex = Random.Range(0, animalPrefabs.Length); Vector3 spawnPos = new Vector3(sideSpawnX, 0, Random.Range(sideSpawnMinZ, sideSpawnMaxZ));
-                Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+                int animalIndex = Random.Range(0, animalPrefabs.Length);
+                Vector3 spawnPos = new Vector3(sideSpawnX, 0, Random.Range(sideSpawnMinZ, sideSpawnMaxZ));
+                Vector3 rotation = new Vector3(0, -90, 0);
+                Instantiate(animalPrefabs[animalIndex], spawnPos, Quaternion.Euler(rotation));
             }
 
         }
     }
-}
+
 
         

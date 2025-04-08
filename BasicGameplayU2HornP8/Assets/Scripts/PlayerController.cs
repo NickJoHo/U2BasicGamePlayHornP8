@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
     public Transform projectileSpawnPoint;
-
+   
     public float zMin;
     public float zMax;
     public float verticalInput;
